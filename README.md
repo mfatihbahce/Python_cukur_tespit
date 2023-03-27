@@ -1,4 +1,4 @@
-# cukur-tespit
+# Python Çukur Tespit
 
 Dünyanın dört bir yanındaki belediyelerin karşılaştığı büyük bir sorun, yaz, musonlar (en kötü olduğu zaman) veya aslında herhangi bir hava koşulu olsun, yolların durumunu korumaktır. Ve yolların hasarsız olmasını sağlamak yetkililerin sorumluluğunda olsa da, bazen sorunu gözden kaçırıyorlar ve çoğu zaman sorunun varlığından bile habersizler. “Güvenlik Kaynak Merkezi”ne göre, sürücüler tarafından patlamış lastiklerin, patlamış aksların ve araçlarındaki diğer hasarların onarımı için yaklaşık 3 Milyar ABD Doları harcanmaktadır. "Amerikan Otomobil Birliği'nin (AAA)" bir makalesine göre, son beş yılda ABD genelinde yaklaşık 16 milyon sürücü çukurlardan zarar gördü.
 
