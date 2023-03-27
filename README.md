@@ -7,3 +7,4 @@ Yol durumunu korumak, belediyeler için sürekli hava değişiklikleri, aşınma
 Şehir içi otobüslerinde yer alan ip kamera sayesinde görüntüler ana merkeze gönderiliyor. ana sunucuda bulunan çukur tespit programı bütün görüntüleri analiz ediyor, analiz sonucu tespit ettiği çukurlaru konumları ile birlikte ilgili birime gönderiyor.
 
 Böylece %95 oranında doğruluk ile tespitler gerçekleşiyor ve çukurlara anlık olarak müdahale edilebiliyor.
+ 
