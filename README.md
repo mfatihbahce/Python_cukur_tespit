@@ -1,5 +1,6 @@
 # Python Çukur Tespit
 
+![alt text](https://github.com/mfatihbahce/Python_cukur_tespit/blob/main/cukur.gif)
 Projenin amacı, bir video kaynağındaki çukurları tespit etmek ve bunların koordinatlarını kaydetmek. Kod, YOLOv4 Tiny modelini kullanarak çukur tespiti yapıyor ve tespit edilen çukurların koordinatlarını bir metin dosyasında saklıyor. Ayrıca, çukurların tespit edildiği karelerin görüntüleri de kaydediliyor.
 
 Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
