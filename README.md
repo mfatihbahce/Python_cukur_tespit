@@ -20,15 +20,15 @@ Kod, "project_files" klasöründe "yolov4_tiny.weights" ve "yolov4_tiny.cfg" dos
 Bu proje, bir video kaynağındaki çukurları tespit etmek ve bunların koordinatlarını kaydetmek için bir görüntü işleme uygulamasıdır. YOLOv4 Tiny modeli kullanılarak çukur tespiti yapılmakta ve tespit edilen çukurların koordinatları bir metin dosyasında saklanmaktadır.
 
 <h3># Kullanılan Kütüphaneler</h3>
-cv2
-geocoder
-time
-os
+cv2<br>
+geocoder<br>
+time<br>
+os<br>
 
 <h3># Kullanılan Dosyalar</h3>
-yolov4_tiny.weights
-yolov4_tiny.cfg
-obj.names
+yolov4_tiny.weights<br>
+yolov4_tiny.cfg<br>
+obj.names<br>
 
 <h3># Nasıl Kullanılır?</h3>
 Yukarıdaki kütüphaneleri ve dosyaları indirin ve projenin bulunduğu klasöre yerleştirin.
