@@ -1,10 +1,37 @@
 # Python Çukur Tespit
 
-Dünyanın dört bir yanındaki belediyelerin karşılaştığı büyük bir sorun yollardaki çukurlar. Belediyeler yolların hasarsız olmasını sağlamak sorumluluğunda olsa da, bazen sorunu gözden kaçırıyorlar ve çoğu zaman sorunun varlığından bile habersizler. “Güvenlik Kaynak Merkezi”ne göre, sürücüler tarafından patlamış lastiklerin, patlamış aksların ve araçlarındaki diğer hasarların onarımı için yaklaşık 3 Milyar ABD Doları harcanmaktadır. "Amerikan Otomobil Birliği'nin (AAA)" bir makalesine göre, son beş yılda ABD genelinde yaklaşık 16 milyon sürücü çukurlardan zarar gördü.
+Projenin amacı, bir video kaynağındaki çukurları tespit etmek ve bunların koordinatlarını kaydetmek. Kod, YOLOv4 Tiny modelini kullanarak çukur tespiti yapıyor ve tespit edilen çukurların koordinatlarını bir metin dosyasında saklıyor. Ayrıca, çukurların tespit edildiği karelerin görüntüleri de kaydediliyor.
 
-Yol durumunu korumak, belediyeler için sürekli hava değişiklikleri, aşınma ve yıpranma, düşük bütçeler ile zorlu bir iştir. Ayrıca insanları bilgilendirmeyi unutmamak da bir görevdir. Yani, bu bahsedilen zorlukları çözmeyi amaçlayan bir uygulama. Birden fazla görüntü üzerinde nesne izleme eğitimi ile elde edildi ve evrişimli sinir ağları kullanılarak geliştirildi. Kendi yetki alanı tabanlı web/mobil uygulama tabanlı panolarını kullanarak iş emirlerini oluşturmak ve yönetmek için görüntüleyebilecekleri ve güncelleyebilecekleri en yakın ilgili yetkili için dinamik bir rapor da oluşturulur.
+Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
 
-Şehir içi otobüslerinde yer alan ip kamera sayesinde görüntüler ana merkeze gönderiliyor. ana sunucuda bulunan çukur tespit programı bütün görüntüleri analiz ediyor, analiz sonucu tespit ettiği çukurlaru konumları ile birlikte ilgili birime gönderiyor.
+#1 Nesne sınıflarının adlarının "obj.names" dosyasından okunması.
+#2 YOLOv4 Tiny modelinin tanıtılması ve parametrelerinin girilmesi.
+#3 Video kaynağının tanıtılması ve sonuç kaydı için VideoWriter nesnesinin tanıtılması.
+#4 Tespit yapılacak döngünün başlatılması.
+#5 Her bir karede çukur tespiti yapılması ve tespit edilen çukurların koordinatlarının metin dosyasına kaydedilmesi.
+#6 Tespit edilen çukurların karelerinin görüntülerinin kaydedilmesi.
+#7 FPS değerinin hesaplanması ve ekrana yazdırılması.
+#8 Sonuçların ekrana ve video kaydına yazdırılması.
 
-Böylece %95 oranında doğruluk ile tespitler gerçekleşiyor ve çukurlara anlık olarak müdahale edilebiliyor.
- 
+Kod, "project_files" klasöründe "yolov4_tiny.weights" ve "yolov4_tiny.cfg" dosyalarını kullanıyor. Ayrıca, "geocoder" kütüphanesi de kullanılıyor. Tespit edilen çukurların koordinatları "pothole_coordinates" klasöründe saklanıyor ve görüntüler "pothole_coordinates" klasörüne kaydediliyor.
+
+
+# 1 Çukur Tespiti Projesi
+Bu proje, bir video kaynağındaki çukurları tespit etmek ve bunların koordinatlarını kaydetmek için bir görüntü işleme uygulamasıdır. YOLOv4 Tiny modeli kullanılarak çukur tespiti yapılmakta ve tespit edilen çukurların koordinatları bir metin dosyasında saklanmaktadır.
+
+#Kullanılan Kütüphaneler
+cv2
+geocoder
+time
+os
+
+#Kullanılan Dosyalar
+yolov4_tiny.weights
+yolov4_tiny.cfg
+obj.names
+
+#Nasıl Kullanılır?
+Yukarıdaki kütüphaneleri ve dosyaları indirin ve projenin bulunduğu klasöre yerleştirin.
+Video kaynağını "test-karsiyaka.mp4" olarak değiştirin veya kendi videonuzu kullanın.
+Proje dosyasını çalıştırın.
+Çukurların tespit edildiği karelerin görüntüleri "pothole_coordinates" klasöründe kay
