@@ -38,3 +38,6 @@ Yukarıdaki kütüphaneleri ve dosyaları indirin ve projenin bulunduğu klasör
 Video kaynağını "test-karsiyaka.mp4" olarak değiştirin veya kendi videonuzu kullanın.
 Proje dosyasını çalıştırın.
 Çukurların tespit edildiği karelerin görüntüleri "pothole_coordinates" klasöründe kaydedilecektir. Ayrıca, her çukurun koordinatları "coordinates.txt" dosyasına da yazdırılacaktır. Bu dosyada, her çukurun koordinatları ayrı bir satırda listelenir.
+<br>
+<br>
+<h2>NOT*</h2>Kod Eğitim amaçlıdır, ticari amaçla kullanılmadan önce bilgilendirmeniz gerekmektedir.
