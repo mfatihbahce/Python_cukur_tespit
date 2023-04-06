@@ -4,9 +4,9 @@ Projenin amacı, bir video kaynağındaki çukurları tespit etmek ve bunların 
 
 Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
 
-<h5><h2>#1</h5> Nesne sınıflarının adlarının "obj.names" dosyasından okunması.</h5>
-<h5><h2>#2</h5> YOLOv4 Tiny modelinin tanıtılması ve parametrelerinin girilmesi.</h5>
-<h5><h2>#3</h5> Video kaynağının tanıtılması ve sonuç kaydı için VideoWriter nesnesinin tanıtılması.</h5>
+<h5>#1 Nesne sınıflarının adlarının "obj.names" dosyasından okunması.</h5>
+<h5>#2 YOLOv4 Tiny modelinin tanıtılması ve parametrelerinin girilmesi.</h5>
+<h5>#3 Video kaynağının tanıtılması ve sonuç kaydı için VideoWriter nesnesinin tanıtılması.</h5>
 <h5>#4 Tespit yapılacak döngünün başlatılması.</h5>
 <h5>#5 Her bir karede çukur tespiti yapılması ve tespit edilen çukurların koordinatlarının metin dosyasına kaydedilmesi.</h5>
 <h5>#6 Tespit edilen çukurların karelerinin görüntülerinin kaydedilmesi.</h5>
