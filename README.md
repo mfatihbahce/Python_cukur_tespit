@@ -17,21 +17,21 @@ Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
 Kod, "project_files" klasöründe "yolov4_tiny.weights" ve "yolov4_tiny.cfg" dosyalarını kullanıyor. Ayrıca, "geocoder" kütüphanesi de kullanılıyor. Tespit edilen çukurların koordinatları "pothole_coordinates" klasöründe saklanıyor ve görüntüler "pothole_coordinates" klasörüne kaydediliyor.
 
 
-# 1 Çukur Tespiti Projesi
+#1 Çukur Tespiti Projesi
 Bu proje, bir video kaynağındaki çukurları tespit etmek ve bunların koordinatlarını kaydetmek için bir görüntü işleme uygulamasıdır. YOLOv4 Tiny modeli kullanılarak çukur tespiti yapılmakta ve tespit edilen çukurların koordinatları bir metin dosyasında saklanmaktadır.
 
-# Kullanılan Kütüphaneler
+#Kullanılan Kütüphaneler
 cv2
 geocoder
 time
 os
 
-# Kullanılan Dosyalar
+#Kullanılan Dosyalar
 yolov4_tiny.weights
 yolov4_tiny.cfg
 obj.names
 
-# Nasıl Kullanılır?
+#Nasıl Kullanılır?
 Yukarıdaki kütüphaneleri ve dosyaları indirin ve projenin bulunduğu klasöre yerleştirin.
 Video kaynağını "test-karsiyaka.mp4" olarak değiştirin veya kendi videonuzu kullanın.
 Proje dosyasını çalıştırın.
