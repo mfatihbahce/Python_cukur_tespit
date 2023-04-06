@@ -12,7 +12,7 @@ Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
 #6 Tespit edilen çukurların karelerinin görüntülerinin kaydedilmesi.<br>
 #7 FPS değerinin hesaplanması ve ekrana yazdırılması.<br>
 #8 Sonuçların ekrana ve video kaydına yazdırılması.<br>
-
+<br>
 Kod, "project_files" klasöründe "yolov4_tiny.weights" ve "yolov4_tiny.cfg" dosyalarını kullanıyor. Ayrıca, "geocoder" kütüphanesi de kullanılıyor. Tespit edilen çukurların koordinatları "pothole_coordinates" klasöründe saklanıyor ve görüntüler "pothole_coordinates" klasörüne kaydediliyor.
 
 
