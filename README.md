@@ -4,14 +4,14 @@ Projenin amacı, bir video kaynağındaki çukurları tespit etmek ve bunların 
 
 Kodun çalışma mantığı aşağıdaki adımlardan oluşuyor:
 <br>
-#1 Nesne sınıflarının adlarının "obj.names" dosyasından okunması.
-#2 YOLOv4 Tiny modelinin tanıtılması ve parametrelerinin girilmesi.
-#3 Video kaynağının tanıtılması ve sonuç kaydı için VideoWriter nesnesinin tanıtılması.
-#4 Tespit yapılacak döngünün başlatılması.</h5>
-#5 Her bir karede çukur tespiti yapılması ve tespit edilen çukurların koordinatlarının metin dosyasına kaydedilmesi.
-#6 Tespit edilen çukurların karelerinin görüntülerinin kaydedilmesi.
-#7 FPS değerinin hesaplanması ve ekrana yazdırılması.
-#8 Sonuçların ekrana ve video kaydına yazdırılması.
+#1 Nesne sınıflarının adlarının "obj.names" dosyasından okunması.<br>
+#2 YOLOv4 Tiny modelinin tanıtılması ve parametrelerinin girilmesi.<br>
+#3 Video kaynağının tanıtılması ve sonuç kaydı için VideoWriter nesnesinin tanıtılması.<br>
+#4 Tespit yapılacak döngünün başlatılması.<br>
+#5 Her bir karede çukur tespiti yapılması ve tespit edilen çukurların koordinatlarının metin dosyasına kaydedilmesi.<br>
+#6 Tespit edilen çukurların karelerinin görüntülerinin kaydedilmesi.<br>
+#7 FPS değerinin hesaplanması ve ekrana yazdırılması.<br>
+#8 Sonuçların ekrana ve video kaydına yazdırılması.<br>
 
 Kod, "project_files" klasöründe "yolov4_tiny.weights" ve "yolov4_tiny.cfg" dosyalarını kullanıyor. Ayrıca, "geocoder" kütüphanesi de kullanılıyor. Tespit edilen çukurların koordinatları "pothole_coordinates" klasöründe saklanıyor ve görüntüler "pothole_coordinates" klasörüne kaydediliyor.
 
