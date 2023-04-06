@@ -29,7 +29,7 @@ os<br>
 yolov4_tiny.weights<br>
 yolov4_tiny.cfg<br>
 obj.names<br>
-
+ 
 <h3># Nasıl Kullanılır?</h3>
 Yukarıdaki kütüphaneleri ve dosyaları indirin ve projenin bulunduğu klasöre yerleştirin.
 Video kaynağını "test-karsiyaka.mp4" olarak değiştirin veya kendi videonuzu kullanın.
